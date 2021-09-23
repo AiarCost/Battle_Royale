@@ -5,13 +5,20 @@ public class NetworkManager : MonoBehaviourPunCallbacks
 {
     public int maxPlayers = 10;
 
-    // instance
+    //instance
     public static NetworkManager instance;
 
     private void Awake()
     {
-        instance = this;
-        DontDestroyOnLoad(gameObject);
+        //if an instance already exists and it's not this one - destroy us
+        if (instance != null && instance != this)
+            gameObject.SetActive(false);
+        else
+        {
+            //set the instance
+            instance = this;
+            //DontDestroyOnLoad(gameObject);
+        }
     }
 
     // Start is called before the first frame update

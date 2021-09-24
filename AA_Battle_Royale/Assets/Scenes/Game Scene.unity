@@ -1559,6 +1559,10 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: 04f6528df8a21c44a896ddf55a1fbf03, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ac9ee90719d97044d8a2768d89217ec3, type: 2}
     - target: {fileID: 8100320773420232829, guid: 04f6528df8a21c44a896ddf55a1fbf03, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -1567,6 +1571,10 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8100320773420232829, guid: 04f6528df8a21c44a896ddf55a1fbf03, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ac9ee90719d97044d8a2768d89217ec3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04f6528df8a21c44a896ddf55a1fbf03, type: 3}
 --- !u!1 &680926268 stripped
